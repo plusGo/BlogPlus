@@ -125,7 +125,8 @@ module.exports = {
 | ExtractTextWebpackPlugin | 将CSS从bundle文件里提取成一个独立的CSS文件 |
 | CopyWebpackPlugin | 将文件或者文件夹拷贝构建的输出目录 |
 | HtmlWebpackPlugin | 创建html文件去承载输出的bundle |
-| UglifyWebpackPlugin | 压缩JS |
+| [MiniCssExtractPlugin](https://github.com/webpack-contrib/mini-css-extract-plugin) | 压缩CSS文件 |
+| [TerserWebpackPlugin](https://github.com/webpack-contrib/terser-webpack-plugin) | 压缩混淆JS |
 | ZipWebpackPlugin | 将打包的资源生成一个zip包 |
 
 **4.3 Plugins的用法**
