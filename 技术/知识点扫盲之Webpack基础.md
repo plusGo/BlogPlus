@@ -3,6 +3,8 @@
 webpack官网地址：https://webpack.js.org/ **（建议）** \
 webpack中文地址：https://www.webpackjs.com/ 
 
+![webpack](/assets/images/webpack.png "webpack")
+
 **为什么需要构建工具？**
 - 转换ES6语法
 - 转换JSX
